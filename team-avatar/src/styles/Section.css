@@ -3,6 +3,12 @@
   padding: 20px;
 }
 
-.section h2 {
-  text-align: center;
+.image{
+width: 200px;
+height: 200px;
+}
+
+.clickMe:hover{
+  border: black solid 2px;
+  cursor: pointer;
 }
