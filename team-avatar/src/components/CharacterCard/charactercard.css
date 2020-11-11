@@ -1,0 +1,10 @@
+.section {
+  background: #f3e5f5;
+  
+}
+
+.clickMe:hover{
+  width: 198px;
+  border: black outset 2px;
+  cursor: pointer;
+}
