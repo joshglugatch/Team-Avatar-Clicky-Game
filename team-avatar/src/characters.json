@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "name": "Aang",
+        "image":"./images/aangImg200.jpg"
+    },
+    {
+        "id":2,
+        "name": "Appa",
+        "image":"./images/appaImg200.jpg"
+    },
+    {
+        "id":3,
+        "name": "Azula",
+        "image":"./images/azulaImg200.jpg"
+    },
+    {
+        "id":4,
+        "name": "Bumi",
+        "image":"./images/bumiImg200.jpg"
+    },
+    {
+        "id":5,
+        "name": "Iroh",
+        "image":"./images/irohImg200.jpg"
+    },
+    {
+        "id":6,
+        "name": "Jet",
+        "image":"./images/jetImg200.jpg"
+    },
+    {
+        "id":7,
+        "name": "Katara",
+        "image":"./images/kataraImg200.jpg"
+    },
+    {
+        "id":8,
+        "name": "Momo",
+        "image":"./images/momoImg200.jpg"
+    },
+    {
+        "id":9,
+        "name": "Sokka",
+        "image":"./images/sokkaImg200.jpg"
+    },
+    {
+        "id":10,
+        "name": "Suki",
+        "image":"./images/sukiImg200.jpg"
+    },
+    {
+        "id":11,
+        "name": "Toph",
+        "image":"./images/tophImg200.jpg"
+    },
+    {
+        "id":12,
+        "name": "Zuko",
+        "image":"./images/zukoImg200.jpg"
+    }
+]
