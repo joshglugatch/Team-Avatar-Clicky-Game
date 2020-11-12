@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Team-Avatar-Clicky-Game/static/css/main.b85d7388.chunk.css",
+    "main.js": "/Team-Avatar-Clicky-Game/static/js/main.ed839893.chunk.js",
+    "main.js.map": "/Team-Avatar-Clicky-Game/static/js/main.ed839893.chunk.js.map",
+    "runtime-main.js": "/Team-Avatar-Clicky-Game/static/js/runtime-main.0dd1f031.js",
+    "runtime-main.js.map": "/Team-Avatar-Clicky-Game/static/js/runtime-main.0dd1f031.js.map",
+    "static/js/2.e185a56c.chunk.js": "/Team-Avatar-Clicky-Game/static/js/2.e185a56c.chunk.js",
+    "static/js/2.e185a56c.chunk.js.map": "/Team-Avatar-Clicky-Game/static/js/2.e185a56c.chunk.js.map",
+    "index.html": "/Team-Avatar-Clicky-Game/index.html",
+    "static/css/main.b85d7388.chunk.css.map": "/Team-Avatar-Clicky-Game/static/css/main.b85d7388.chunk.css.map",
+    "static/js/2.e185a56c.chunk.js.LICENSE.txt": "/Team-Avatar-Clicky-Game/static/js/2.e185a56c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dd1f031.js",
+    "static/js/2.e185a56c.chunk.js",
+    "static/css/main.b85d7388.chunk.css",
+    "static/js/main.ed839893.chunk.js"
+  ]
+}
