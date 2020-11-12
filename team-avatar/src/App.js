@@ -6,12 +6,16 @@ import Characters from "./characters.json"
 
 var clicked = []
 
+
 class App extends React.Component{
   state={
     characters: Characters,
     highscore: 0,
-    score: 0
+    score: 0,
+    message: "Click an image to begin."
   };
+
+  
 
 
   handleClick = (event) => {
@@ -26,12 +30,16 @@ class App extends React.Component{
         if(newScore>this.state.highscore){
           this.setState({highscore: newScore})
         }
-        
-        
+        this.setState({message:"Keep going! Defeat the Fire Lord!"})
+        if(newScore === 12){
+          this.setState({message:"You did it! Team Avatar wins again! Your score was "+ newScore})
+          clicked=[]
+          this.setState({score: 0})
+        }
       }else{
-        alert("Game Over... Restart?")
         clicked=[]
         this.setState({score: 0})
+        this.setState({message:"Game Over... Click an image to try again."})
       }
 
       const arr = this.state.characters;
@@ -54,8 +62,10 @@ class App extends React.Component{
       score={this.state.score}
       highscore={this.state.highscore}
       />
-      <Header/>
-      <div className="container mt-5">
+      <Header
+      message={this.state.message}
+      />
+      <div className="container mt-5" style={{backgroundColor: "lightblue"}}>
       <div className="row mt-3 mb-3">
       {this.state.characters.map(character =>(
         <CharacterCard
